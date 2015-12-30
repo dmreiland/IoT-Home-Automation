@@ -16,14 +16,14 @@ int led1 = D1;
 void setup() {
     
     // Variables
-    Spark.variable("isopen", &isOpen, INT);
-    Spark.variable("usecount", &useCount, INT);
-    Spark.variable("username", &userName, STRING);
+    Particle.variable("isopen", &isOpen, INT);
+    Particle.variable("usecount", &useCount, INT);
+    Particle.variable("username", userName, STRING);
     
     // Functions
-    Spark.function("openclose", openCloseGarage);
-    Spark.function("updatename", updateName);
-    Spark.function("incrementuse", incrementUse);
+    Particle.function("openclose", openCloseGarage);
+    Particle.function("updatename", updateName);
+    Particle.function("incrementuse", incrementUse);
     
     // Pins
     pinMode(D1, INPUT);
