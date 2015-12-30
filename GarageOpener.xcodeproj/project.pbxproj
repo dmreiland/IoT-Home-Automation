@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39F6125C1C334DEE00DA1C76 /* Secrets.plist in Resources */ = {isa = PBXBuildFile; fileRef = 39F6125B1C334DEE00DA1C76 /* Secrets.plist */; };
 		E549F9831B439C7E0046F672 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = E549F9821B439C7E0046F672 /* Secrets.swift */; };
 		E54E6C0A1B406C12003B3E53 /* GridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54E6C091B406C12003B3E53 /* GridViewController.swift */; };
 		E54E6C0C1B40D3AF003B3E53 /* UserSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54E6C0B1B40D3AF003B3E53 /* UserSettingsViewController.swift */; };
@@ -61,6 +62,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		39F6125B1C334DEE00DA1C76 /* Secrets.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Secrets.plist; sourceTree = "<group>"; };
 		E549F9821B439C7E0046F672 /* Secrets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
 		E54E6C091B406C12003B3E53 /* GridViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridViewController.swift; sourceTree = "<group>"; };
 		E54E6C0B1B40D3AF003B3E53 /* UserSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSettingsViewController.swift; sourceTree = "<group>"; };
@@ -192,6 +194,7 @@
 				E5CC37DB1B3484AF00FE8F18 /* Helpers */,
 				E5E8BE901B34C18C006EB7D7 /* ViewControllers */,
 				E59B08C61B22974F009B50D4 /* Supporting Files */,
+				39F6125B1C334DEE00DA1C76 /* Secrets.plist */,
 			);
 			path = GarageOpener;
 			sourceTree = "<group>";
@@ -370,6 +373,7 @@
 				E59B08D11B22974F009B50D4 /* Main.storyboard in Resources */,
 				E5D36DF41B24FE19004B675F /* Settings.bundle in Resources */,
 				E59B08D61B22974F009B50D4 /* LaunchScreen.xib in Resources */,
+				39F6125C1C334DEE00DA1C76 /* Secrets.plist in Resources */,
 				E59B08D31B22974F009B50D4 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -552,6 +556,7 @@
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "GarageOpener/GarageOpener-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -573,6 +578,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "GarageOpener/GarageOpener-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
